@@ -6,22 +6,24 @@
     <artifactId>vaadin-web-components</artifactId>
     <version>23.3.7</version>
     <name>Vaadin Web Components</name>
+    <url>https://vaadin.com/components</url>
     <description>Vaadin components is an evolving set of open sourced custom HTML elements for building mobile and desktop web applications in modern browsers.</description>
     <organization>
         <name>Vaadin Ltd</name>
+        <url>https://vaadin.com/components</url>
     </organization>
     <licenses>
         <license>
-            <name>(Apache-2.0 OR SEE LICENSE IN https://vaadin.com/license/cvdl-4.0)</name>
+            <name>Apache-2.0</name>
         </license>
     </licenses>
     <scm>
-        <connection>https://github.com/mvnpm/vaadin.git</connection>
-        <developerConnection>https://github.com/mvnpm/vaadin.git</developerConnection>
-        <url>https://github.com/mvnpm/vaadin</url>
+        <connection>https://github.com/vaadin/web-components.git</connection>
+        <developerConnection>https://github.com/vaadin/web-components.git</developerConnection>
+        <url>https://github.com/vaadin/web-components</url>
     </scm>
     <issueManagement>
-        <url>https://github.com/mvnpm/vaadin/issues</url>
+        <url>https://github.com/vaadin/web-components/issues</url>
     </issueManagement>
     
     <distributionManagement>
