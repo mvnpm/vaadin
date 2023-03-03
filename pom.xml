@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mvnpm</groupId>
     <artifactId>vaadin-web-components</artifactId>
-    <version>23.3.7</version>
+    <version>23.3.8</version>
     <name>Vaadin Web Components</name>
     <url>https://vaadin.com/components</url>
     <description>Vaadin components is an evolving set of open sourced custom HTML elements for building mobile and desktop web applications in modern browsers.</description>
@@ -89,6 +89,31 @@
     </developers>
 
     <dependencies>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>app-layout</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>avatar-group</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>icons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>login</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>integer-field</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.mvnpm.at.vaadin</groupId>
             <artifactId>accordion</artifactId>
